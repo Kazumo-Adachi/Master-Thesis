@@ -1,13 +1,13 @@
 # Master thesis code
 
-This repository contains the numerical simulation codes, input files, and representative output files used in my master's thesis.
+本リポジトリには、修士論文で使用した数値シミュレーションコード、入力ファイル、および代表的な出力ファイルが格納されています。
 
-## Overview
+## 概要
 
-The codes are used to simulate erosion and deposition processes of debris flows.
-The repository is organized by the experimental cases used for model validation and comparison.
+本コードは、土石流の侵食および堆積過程をシミュレーションするためのものです。
+本リポジトリは、モデルの検証や比較に用いた実験ケースごとに整理されています。
 
-## Repository structure
+## リポジトリ構成
 
 ```text
 master-thesis-code/
@@ -45,40 +45,28 @@ master-thesis-code/
     └── FIX_Suzuki.C/
 ```
 
-## Contents
+## 内容
 
-### `Tazawa_experiment/`
+### `田澤実験/`
 
-This folder contains the source codes, input files, experimental data, and representative output files used for the reproduction analysis of the Tazawa experiment.
+田澤実験の再現解析に使用したソースコード、入力ファイル、実験データ、および代表的な出力ファイルが格納されています。
 
-### `Suzuki_experiment/`
+### `鈴木実験/`
 
-This folder contains the source codes, input files, experimental data, and representative output files used for the reproduction analysis of the Suzuki experiment.
+鈴木実験の再現解析に使用したソースコード、入力ファイル、実験データ、および代表的な出力ファイルが格納されています。
 
-### `docs/`
+### `經隆実験/`
 
-This folder contains supplementary documentation, including notes on the numerical model, calculation conditions, and reproduction procedures.
+經隆実験の再現解析に使用したソースコード、入力ファイル、実験データ、および代表的な出力ファイルが格納されています。
 
-## Unit system
 
-The source codes use the cm-g-sec unit system unless otherwise noted.
+## 使用方法
 
-## How to run
-
-Compile each C source file using a C compiler.
-
-Example:
-
-```bash
-gcc source_code/FIX_Egashira.c -o FIX_Egashira
-./FIX_Egashira
-```
+各CソースファイルをCコンパイラを使用してコンパイルしてください。
 
 The exact file name and execution procedure may differ depending on the experimental case and model.
 
-## Notes
+## 注意事項
 
-This repository corresponds to the version of the code used for the master's thesis.
-
-Large raw data files, videos, and complete output files are not included in this repository.
-Only the source codes, input files, and representative output examples necessary to understand and reproduce the main calculations are provided.
+大規模な生データファイル、動画、およびすべての出力ファイルは本リポジトリには含まれていません。
+本リポジトリには、主要な計算を理解・再現するために必要なソースコード、入力ファイル、および代表的な出力例のみを格納しています。
