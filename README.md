@@ -1,4 +1,4 @@
-# Master thesis code
+# Master Thesis Code
 
 本リポジトリには、修士論文で使用した数値シミュレーションコード、入力ファイル、および代表的な出力ファイルが格納されています。
 
@@ -10,7 +10,7 @@
 ## リポジトリ構成
 
 ```text
-master-thesis-code/
+Master-Thesis/
 ├── README.md
 ├── 田澤実験/
 │   ├── txtファイル/
