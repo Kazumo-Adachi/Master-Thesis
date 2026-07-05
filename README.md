@@ -12,19 +12,37 @@ The repository is organized by the experimental cases used for model validation 
 ```text
 master-thesis-code/
 ├── README.md
-├── Tazawa_experiment/
-│   ├── README.md
-│   ├── source_code/
-│   ├── input_txt/
-│   ├── experimental_data_txt/
-│   └── output_example_txt/
-├── Suzuki_experiment/
-│   ├── README.md
-│   ├── source_code/
-│   ├── input_txt/
-│   ├── experimental_data_txt/
-│   └── output_example_txt/
-└── docs/
+├── 田澤実験/
+│   ├── txtファイル/
+│   ├── expファイル/
+│   ├── output修正/
+│   ├── output江頭/
+│   ├── Egashira.C/
+│   └── Hotta.C/
+├── 鈴木実験/
+│   ├── txtファイル/
+│   ├── 水路形状/
+│   ├── output江頭堆積/
+│   ├── output修正堆積/
+│   ├── output鈴木堆積/
+│   ├── output江頭侵食/
+│   ├── output修正侵食/
+│   ├── output鈴木侵食/
+│   ├── D_Egashira.C/
+│   ├── D_Hotta.C/
+│   ├── D_Suzuki.C/
+│   ├── E_Egashira.C/
+│   ├── E_Hotta.C/
+│   └── E_Suzuki.C/
+└── 經隆実験/
+│   ├── txtファイル/
+│   ├── 水路形状/
+│   ├── outputFIX江頭/
+│   ├── outputFIX修正/
+│   ├── outputFIX鈴木/
+│   ├── FIX_Egashira.C/
+│   ├── FIX_Hotta.C/
+│   └── FIX_Suzuki.C/
 ```
 
 ## Contents
