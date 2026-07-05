@@ -17,8 +17,8 @@ master-thesis-code/
 │   ├── expファイル/
 │   ├── output江頭/
 │   ├── output修正/
-│   ├── Egashira.C/
-│   └── Hotta.C/
+│   ├── Egashira.C
+│   └── Hotta.C
 ├── 鈴木実験/
 │   ├── txtファイル/
 │   ├── 水路形状/
@@ -28,12 +28,12 @@ master-thesis-code/
 │   ├── output江頭侵食/
 │   ├── output修正侵食/
 │   ├── output鈴木侵食/
-│   ├── D_Egashira.C/
-│   ├── D_Hotta.C/
-│   ├── D_Suzuki.C/
-│   ├── E_Egashira.C/
-│   ├── E_Hotta.C/
-│   └── E_Suzuki.C/
+│   ├── D_Egashira.C
+│   ├── D_Hotta.C
+│   ├── D_Suzuki.C
+│   ├── E_Egashira.C
+│   ├── E_Hotta.C
+│   └── E_Suzuki.C
 └── 經隆実験/
     ├── txtファイル/
     ├── 水路形状/
